@@ -1,0 +1,15 @@
+.header {
+  padding: 1.5rem;
+  box-shadow: 1px 3px 7px 1px #0000002e;
+  display: flex;
+  justify-content: space-between;
+
+  & h1 {
+    font-weight: bold;
+  }
+
+  & ul {
+    display: flex;
+    gap: 2rem;
+  }
+}
