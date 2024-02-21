@@ -1,0 +1,14 @@
+<svg width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+        rect{ fill:black; }
+        path { fill: white; }
+        @media (prefers-color-scheme: dark) {
+            path { fill: black; }
+            rect{ fill:white; }
+        }
+    </style>
+  <rect width="250" height="250" fill="white"/>
+  <path d="M172.05 58H230.13L208.834 179H150.754L172.05 58ZM201.574 82.2H191.894L179.149 154.8H188.829L201.574 82.2Z" fill="black"/>
+  <path d="M162.38 58L141.084 179H83.0039L89.7799 140.28H113.98L111.399 154.8H121.079L125.273 130.6H91.3932L104.3 58H162.38ZM129.629 106.4L133.824 82.2H124.144L119.949 106.4H129.629Z" fill="black"/>
+  <path d="M36.5538 58H94.6338L81.7271 130.6H47.8471L43.6525 154.8H53.3325L55.9138 140.28H80.1138L73.3378 179H15.2578L28.0031 106.4H61.8831L66.0778 82.2H56.3978L53.9778 96.72H29.7778L36.5538 58Z" fill="black"/>
+</svg>

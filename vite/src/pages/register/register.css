@@ -1,0 +1,63 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 440px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container .line {
+  height: 4px;
+  background: #ddd;
+  margin-bottom: 1rem;
+}
+
+.container .line div {
+  width: 0%;
+  height: 100%;
+  background: #333;
+}
+
+.wrapper {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper>div {
+  width: 438px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wrapper input {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  min-width: 200px;
+  margin: 0.5rem 0;
+  outline: none;
+}
+
+.wrapper button {
+  margin-top: 1.5rem;
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.wrapper button:disabled {
+  background: #dbdbdb;
+  color: #000;
+  cursor: not-allowed;
+}

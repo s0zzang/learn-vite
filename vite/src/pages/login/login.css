@@ -1,0 +1,59 @@
+.container {
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container hr {
+  height: 4px;
+  background: #000;
+  border: none;
+  margin: 2rem 0;
+}
+
+.container form {
+  margin-bottom: 3rem;
+}
+
+.container input {
+  border: 1px solid #aaa;
+  padding: 1rem;
+  min-width: 300px;
+  margin: 0.2rem 0;
+  outline: none;
+}
+
+.container input:focus {
+  border-color: #000;
+}
+
+.container .login {
+  margin-top: 1.5rem;
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.register {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 30px;
+
+}
+
+.register:hover {
+  background: #000;
+  color: #fff;
+}
